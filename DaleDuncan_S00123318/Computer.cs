@@ -16,5 +16,22 @@ namespace DaleDuncan_S00123318
         public string Computer_Image { get; set; }
         public string Memory { get; set; }
         public string Processor { get; set; }
+
+
+        public static void DecreasePrice(double Percentage)
+        {
+            double decrease;
+            double Price = 500;
+
+            Percentage = Percentage / 100;
+
+            decrease = Price * Percentage;
+
+            Price = Price - decrease;
+
+
+
+        }
     }
+
 }

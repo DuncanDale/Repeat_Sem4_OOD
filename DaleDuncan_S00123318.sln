@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaleDuncan_S00123318", "DaleDuncan_S00123318\DaleDuncan_S00123318.csproj", "{8980E29A-A791-4A4D-9A1B-DB47B63E2546}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{C0D98199-0953-4D43-84E8-A9C62FA197E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8980E29A-A791-4A4D-9A1B-DB47B63E2546}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8980E29A-A791-4A4D-9A1B-DB47B63E2546}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8980E29A-A791-4A4D-9A1B-DB47B63E2546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D98199-0953-4D43-84E8-A9C62FA197E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D98199-0953-4D43-84E8-A9C62FA197E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D98199-0953-4D43-84E8-A9C62FA197E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D98199-0953-4D43-84E8-A9C62FA197E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
