@@ -24,5 +24,24 @@ namespace DaleDuncan_S00123318
         {
             InitializeComponent();
         }
+
+        private void Lbx_computers_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            //gets the selected computer
+            Computer selectComputer = lbx_computers.SelectedItem as Computer;
+
+            //check to make sure the selection is not null
+            if (selectComputer != null)
+            {
+                ImgComputer.Source = new BitmapImage(new Uri(selectComputer.Computer_Image, UriKind.Relative));
+            }
+
+
+        }
+
+
+
+
+
     }
 }
