@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,12 +9,13 @@ namespace DaleDuncan_S00123318
 {
     public class Computer
     {
-        public string ID { get; set; }
+      
         public string Name { get; set; }
-        public int Price { get; set; }
+        public decimal Price { get; set; }
         public string OperatingSystem { get; set; }
         public string Manufacturer_Image { get; set; }
         public string Computer_Image { get; set; }
+        public string HardDrive { get; set; }
         public string Memory { get; set; }
         public string Processor { get; set; }
 
@@ -31,6 +33,25 @@ namespace DaleDuncan_S00123318
 
 
 
+        }
+
+        public static void GetDetails()
+        {
+            
+        }
+
+        //public override string ToString()
+        //{
+        //    return string.Format($"{Operating}");
+
+        //}
+
+        public class ComputerData : DbContext
+        {
+
+            public ComputerData() : base("MyComputerData") { }
+
+            public DbSet<Computer> Phones { get; set; }
         }
     }
 
